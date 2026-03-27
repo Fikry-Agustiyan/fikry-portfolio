@@ -1,24 +1,24 @@
 export const contactConfig = {
   title: "Contact",
-  description: "Get in touch with me for collaboration opportunities, questions, or just to say hello. I'm always open to discussing new projects and ideas.",
-  email: "your.email@example.com",
-  phone: "+1 (555) 123-4567",
-  address: "123 Main Street, City, Country",
+  description: "Tertarik untuk berdiskusi tentang proyek AI, software engineering, atau sekadar bertukar pikiran? Jangan ragu untuk menghubungi saya.",
+  email: "fikry@example.com",
+  phone: "+62 8XX-XXXX-XXXX",
+  address: "Jakarta Barat, Jakarta, Indonesia",
   social: [
     {
-      name: "Twitter",
-      url: "https://twitter.com/yourusername",
-      icon: "twitter"
+      name: "GitHub",
+      url: "https://github.com/fikryagustiyan",
+      icon: "github"
     },
     {
       name: "LinkedIn",
-      url: "https://linkedin.com/in/yourusername",
+      url: "https://linkedin.com/in/fikryagustiyan",
       icon: "linkedin"
     },
     {
-      name: "GitHub",
-      url: "https://github.com/yourusername",
-      icon: "github"
+      name: "Twitter",
+      url: "https://twitter.com/fikryagustiyan",
+      icon: "twitter"
     }
   ]
-} 
+};
