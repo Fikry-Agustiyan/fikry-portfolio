@@ -30,9 +30,8 @@ export const globalConfig = {
     aria: "Footer Navigation",
     copyright: "© 2026 Fikry Agustiyan. All rights reserved.",
     social: {
-      twitter: "https://twitter.com/fikryagustiyan",
-      github: "https://github.com/fikryagustiyan",
-      email: "fikry@example.com"
+      github: "https://github.com/fikry-agustiyan",
+      email: "fikryagustiyan@gmail.com"
     }
   }
 } as const;
