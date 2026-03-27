@@ -1,8 +1,8 @@
 export const globalConfig = {
   site: {
-    name: "Your Portfolio Name",
-    author: "Your Name",
-    description: "A brief description of your portfolio website",
+    name: "Fikry's Portfolio",
+    author: "Fikry",
+    description: "Fikry portfolio website",
     url: "/"
   },
   navigation: {
