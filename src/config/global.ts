@@ -1,8 +1,8 @@
 export const globalConfig = {
   site: {
     name: "Fikry's Portfolio",
-    author: "Fikry",
-    description: "Fikry portfolio website",
+    author: "Fikry Agustiyan",
+    description: "Portofolio website mahasiswa Teknik Informatika",
     url: "/"
   },
   navigation: {
@@ -28,11 +28,11 @@ export const globalConfig = {
   },
   footer: {
     aria: "Footer Navigation",
-    copyright: "© 2025 Your Name. All rights reserved.",
+    copyright: "© 2026 Fikry Agustiyan. All rights reserved.",
     social: {
-      twitter: "https://x.com/TencentCloudEO",
-      github: "https://github.com/TencentEdgeOne",
-      email: "media_service@tencent.com"
+      twitter: "https://twitter.com/fikryagustiyan",
+      github: "https://github.com/fikryagustiyan",
+      email: "fikry@example.com"
     }
   }
-} as const; 
+} as const;
