@@ -5,4 +5,4 @@ export const homeConfig = {
     viewProjects: "View Projects",
     readPosts: "Read Posts"
   }
-} as const 
+} as const;
