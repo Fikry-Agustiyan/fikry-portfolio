@@ -1,26 +1,26 @@
 export const projectsConfig = {
-  title: "Our Projects",
-  description: "Here you can showcase your best work. Each project should include a brief description, the technologies used, and any notable achievements. This helps potential clients or employers understand your capabilities.",
+  title: "My Projects",
+  description: "Kumpulan tugas akademik dan proyek personal yang mendemonstrasikan pemahaman saya di bidang rekayasa perangkat lunak dan kecerdasan buatan.",
   backButton: "Back to Home",
   noProjects: "No projects found.",
   items: [
     {
-      title: "Project One",
-      description: "A brief description of your first project. Explain what it does and what technologies you used.",
-      href: "https://edgeone.ai/pages/templates?usecase=portfolio",
+      title: "Konsep Chatbot AI Asisten Hukum",
+      description: "Makalah akademik dan perancangan sistem chatbot AI yang didasarkan pada tiga jurnal paper terkemuka, dirancang untuk memudahkan masyarakat mengakses informasi hukum.",
+      href: "/projects/ai-legal-assistant",
       imageUrl: "/assets/images/projects/project1.jpg"
     },
     {
-      title: "Project Two",
-      description: "Describe your second project here. Highlight the key features and your role in development.",
-      href: "https://edgeone.ai/pages/templates?usecase=portfolio",
+      title: "Academic Environment Automator",
+      description: "Sistem skrip PowerShell yang secara otomatis membuat hierarki folder terstruktur (C:/FAGT/UNTAR/) untuk menyimpan materi, kuis, UTS, dan UAS per semester.",
+      href: "/projects/powershell-script",
       imageUrl: "/assets/images/projects/project2.jpg"
     },
     {
-      title: "Project Three",
-      description: "Share details about your third project. What problems did it solve? What was the outcome?",
-      href: "https://edgeone.ai/pages/templates?usecase=portfolio",
+      title: "VS Code Profile Manager",
+      description: "Prompting dan konfigurasi pengembangan environment IDE untuk 4 jenis proyek berbeda (C++, Java, Python, Web) menggunakan basis ekstensi Ayu dan Material Icon Theme.",
+      href: "/projects/vscode-profiles",
       imageUrl: "/assets/images/projects/project3.png"
     }
   ]
-} as const; 
+} as const;
