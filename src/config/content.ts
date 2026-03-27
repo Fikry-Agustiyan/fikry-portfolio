@@ -1,6 +1,6 @@
 export const siteConfig = {
-  name: "Someone's Portfolio",
-  description: "A showcase of my work and thoughts",
+  name: "Fikry's Portfolio",
+  description: "Portofolio akademik dan proyek teknologi Fikry Agustiyan",
   nav: {
     home: "Home",
     posts: "Posts",
@@ -8,8 +8,8 @@ export const siteConfig = {
     about: "About"
   },
   home: {
-    greeting: "Hello, I'm Kai.",
-    description: "A passionate frontend developer with a keen eye for design and a love for creating beautiful, functional web experiences.",
+    greeting: "Hello, I'm Fikry.",
+    description: "Seorang mahasiswa Teknik Informatika di Universitas Tarumanagara (UNTAR) yang antusias terhadap Software Engineering dan Kecerdasan Buatan.",
     buttons: {
       viewProjects: "View Projects",
       readPosts: "Read Posts"
@@ -17,51 +17,33 @@ export const siteConfig = {
   },
   projects: {
     title: "My Projects",
-    description: "Here are some of the current projects I've been working on. I really enjoy creating new projects and coming up with new ideas. I'm always working on something new, so check back often!",
+    description: "Kumpulan tugas, eksplorasi teknologi, dan rancangan sistem yang saya kembangkan selama masa perkuliahan.",
     backButton: "Back to Home",
     noProjects: "No projects found.",
     items: [
       {
-        title: "TempMail.Best",
-        description: "Best Temporary Email.",
-        href: "https://tempmail.best",
-        imageUrl: "/assets/images/projects/tempmail.best.png"
+        title: "Konsep AI Asisten Hukum",
+        description: "Makalah konseptual tentang chatbot AI untuk memberikan layanan informasi hukum bagi masyarakat umum di Indonesia.",
+        href: "/projects/ai-legal-assistant",
+        imageUrl: "/assets/images/projects/ai-legal.png"
       },
       {
-        title: "DNS.Surf",
-        description: "Querying DNS Resolution Results in Different Regions Worldwide.",
-        href: "https://dns.surf",
-        imageUrl: "/assets/images/projects/dns.surf.png"
+        title: "Workspace Automator",
+        description: "Skrip PowerShell untuk mengotomatisasi pembuatan struktur folder kuliah secara sistematis (Materi, Teori, Praktikum, dll) di lokal drive.",
+        href: "/projects/folder-automation",
+        imageUrl: "/assets/images/projects/automation.png"
       },
       {
-        title: "HTML.ZONE",
-        description: "Web Toolbox.",
-        href: "https://html.zone",
-        imageUrl: "/assets/images/projects/html.zone.png"
-      },
-      {
-        title: "Sink",
-        description: "A Simple / Speedy / Secure Link Shortener with Analytics.",
-        href: "https://sink.cool",
-        imageUrl: "/assets/images/projects/sink.cool.png"
-      },
-      {
-        title: "BroadcastChannel",
-        description: "Turn your Telegram Channel into a MicroBlog.",
-        href: "https://github.com/ccbikai/BroadcastChannel",
-        imageUrl: "/assets/images/projects/broadcast-channel.png"
-      },
-      {
-        title: "L(O*62).ONG",
-        description: "Make your URL looooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooonger",
-        href: "https://loooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo.ong",
-        imageUrl: "/assets/images/projects/long.png"
+        title: "VS Code Multi-Profile Generator",
+        description: "Konfigurasi terpadu untuk membuat 4 profil pengembangan (C++, Java, Python/SQL, Web) dengan ekstensi standar (Ayu, Indent Rainbow, Material Icon).",
+        href: "/projects/vscode-profiles",
+        imageUrl: "/assets/images/projects/vscode.png"
       }
     ]
   },
   posts: {
     title: "My Writing",
-    description: "My thoughts and ideas about technology and development.",
+    description: "Catatan belajar, pemikiran tentang teknologi, dan dokumentasi proyek perkuliahan saya.",
     backButton: "Back to Home",
     noPosts: "No posts found matching your search.",
     searchPlaceholder: "Filter posts by title...",
@@ -71,94 +53,38 @@ export const siteConfig = {
     },
     items: [
       {
-        title: "Run MCP Server in a Docker sandbox",
-        description: "Run MCP Server in a Docker sandbox to avoid supply chain attacks.",
-        date: "Apr 25, 2025",
-        href: "/post/guide-to-running-mcp-server-in-a-sandbox",
-        imageUrl: "/assets/images/posts/post1.jpg",
-        readingTime: 8
-      },
-      {
-        title: "Use Cloudflare Workers to concat audio files",
-        description: "How to use Cloudflare Workers to merge audio files using FFmpeg in the browser.",
-        date: "April 19, 2025",
-        href: "/post/cloudflare-audio-concat",
-        imageUrl: "/assets/images/posts/post2.jpg",
-        readingTime: 12
-      },
-      {
-        title: "RSS.Beauty - Make Your RSS Beautiful!",
-        description: "Beautify your RSS feeds with RSS.Beauty, featuring elegant interfaces, responsive design, and self-hosting support. Try it now!",
-        date: "Dec 31, 2024",
-        href: "/post/rss-beauty",
-        imageUrl: "/assets/images/posts/post3.jpg",
+        title: "Merancang Asisten Hukum Berbasis AI untuk Indonesia",
+        description: "Eksplorasi literatur dan perancangan konseptual chatbot AI untuk mata kuliah Pengantar AI.",
+        date: "Mar 09, 2026",
+        href: "/post/ai-asisten-hukum",
+        imageUrl: "/assets/images/posts/ai-law.jpg",
         readingTime: 6
       },
       {
-        title: "Building a Modern Web App with Next.js",
-        description: "Learn how to build a modern web application using Next.js, React, and Tailwind CSS.",
-        date: "Dec 15, 2024",
-        href: "/post/nextjs-web-app",
-        imageUrl: "/assets/images/posts/post1.jpg",
-        readingTime: 15
+        title: "Otomatisasi Folder Kuliah dengan PowerShell",
+        description: "Cara saya mengatur folder lokal (Materi, Teori, Praktikum) secara rapi untuk setiap semester menggunakan satu skrip sederhana.",
+        date: "Mar 01, 2026",
+        href: "/post/powershell-folder-kuliah",
+        imageUrl: "/assets/images/posts/powershell.jpg",
+        readingTime: 4
       },
       {
-        title: "The Future of Web Development",
-        description: "Exploring the latest trends and technologies shaping the future of web development.",
-        date: "Dec 1, 2024",
-        href: "/post/future-web-dev",
-        imageUrl: "/assets/images/posts/post2.jpg",
-        readingTime: 10
-      },
-      {
-        title: "Mastering TypeScript in 2024",
-        description: "A comprehensive guide to TypeScript features and best practices for modern web development.",
-        date: "Nov 20, 2024",
-        href: "/post/typescript-guide",
-        imageUrl: "/assets/images/posts/post3.jpg",
-        readingTime: 20
-      },
-      {
-        title: "The Art of Clean Code",
-        description: "Learn the principles and practices of writing clean, maintainable code that stands the test of time.",
-        date: "Nov 10, 2024",
-        href: "/post/clean-code",
-        imageUrl: "/assets/images/posts/post1.jpg",
-        readingTime: 12
-      },
-      {
-        title: "Building Scalable APIs with Node.js",
-        description: "Best practices and patterns for building robust and scalable APIs using Node.js and Express.",
-        date: "Oct 28, 2024",
-        href: "/post/nodejs-apis",
-        imageUrl: "/assets/images/posts/post2.jpg",
-        readingTime: 18
-      },
-      {
-        title: "Getting Started with GraphQL",
-        description: "A beginner's guide to GraphQL: concepts, implementation, and real-world examples.",
-        date: "Oct 15, 2024",
-        href: "/post/graphql-intro",
-        imageUrl: "/assets/images/posts/post3.jpg",
-        readingTime: 14
-      },
-      {
-        title: "The Power of CSS Grid",
-        description: "Master CSS Grid layout and create complex, responsive designs with ease.",
-        date: "Oct 1, 2024",
-        href: "/post/css-grid",
-        imageUrl: "/assets/images/posts/post1.jpg",
-        readingTime: 9
+        title: "Setup Produktivitas: 4 Profil VS Code untuk Mahasiswa IT",
+        description: "Memisahkan environment untuk C++, Java, Python/SQL, dan Web dengan tema seragam agar fokus tetap terjaga.",
+        date: "Feb 28, 2026",
+        href: "/post/vscode-setup",
+        imageUrl: "/assets/images/posts/vscode-setup.jpg",
+        readingTime: 5
       }
     ]
   },
   about: {
     title: "About",
-    description: "Learn more about me and my journey.",
+    description: "Kenali lebih jauh tentang latar belakang, pendidikan, dan minat saya.",
     backButton: "Back to Home"
   },
   theme: {
     dayMode: "Day mode",
     nightMode: "Night mode"
   }
-} as const 
+} as const;
