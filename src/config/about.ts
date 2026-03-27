@@ -1,66 +1,59 @@
 export const aboutConfig = {
   title: "About Me",
-  description: "This is where you can introduce yourself or your company. Share your story, mission, and values. Explain what makes you unique and why people should be interested in your work. Keep it concise but engaging.",
+  description: "Saya adalah mahasiswa Teknik Informatika yang memiliki ketertarikan mendalam pada pengembangan web, rekayasa perangkat lunak, dan kecerdasan buatan. Saya percaya bahwa lingkungan pengembangan yang rapi dan efisien adalah kunci produktivitas, yang tercermin dari cara saya menyusun ruang kerja digital saya.",
   image: "/assets/images/about.jpg",
   stats: [
     {
-      value: "5+",
-      label: "Years Experience",
+      value: "10+",
+      label: "Academic Projects",
     },
     {
-      value: "50+",
-      label: "Projects Completed",
+      value: "5+",
+      label: "Programming Languages",
     },
     {
       value: "100%",
-      label: "Client Satisfaction",
+      label: "Passion for Tech",
     },
   ],
   skills: [
-    "Next.js",
-    "React",
-    "TypeScript",
-    "Tailwind CSS",
-    "Node.js",
-    "Docker",
-    "Git",
-    "AWS"
+    "C++",
+    "Java",
+    "Python",
+    "SQL",
+    "Web Development",
+    "Artificial Intelligence",
+    "VS Code Configuration"
   ],
   experience: {
-    title: "Experience",
+    title: "Experience & Education",
     items: [
       {
-        period: "2022 - Present",
-        role: "Senior Frontend Developer",
-        company: "Tencent Cloud",
-        description: "Leading frontend development for EdgeOne platform and templates."
+        period: "Present",
+        role: "Informatics Student",
+        company: "Universitas Tarumanagara (UNTAR)",
+        description: "Mempelajari dasar-dasar ilmu komputer, algoritma, basis data, dan pengembangan AI. Berfokus pada proyek-proyek praktis dan penyusunan paper akademis."
       },
       {
-        period: "2020 - 2022",
-        role: "Frontend Developer",
-        company: "Tencent Cloud",
-        description: "Developed and maintained multiple web applications and tools."
-      },
-      {
-        period: "2018 - 2020",
-        role: "Junior Developer",
-        company: "Tencent Cloud",
-        description: "Worked on various client projects and internal tools."
+        period: "2026",
+        role: "AI Researcher (Academic Project)",
+        company: "Pengantar AI Course",
+        description: "Merancang konsep dan makalah untuk chatbot AI yang berfungsi sebagai asisten hukum bagi masyarakat Indonesia."
       }
     ]
   },
   connect: {
     title: "Let's Connect",
-    description: "Feel free to reach out if you want to collaborate or just say hi! You can find us on social media or drop us an email.",
+    description: "Mari berdiskusi tentang teknologi, pengembangan perangkat lunak, atau potensi kolaborasi. Anda bisa menghubungi saya melalui platform di bawah ini.",
     links: {
-      twitter: {
-        text: "follow us on twitter",
-        url: "https://x.com/TencentCloudEO"
+      github: {
+        text: "follow my github",
+        url: "https://github.com/fikryagustiyan"
       },
       email: {
-        text: "email",
-        url: "mailto:media_service@tencent.com"
+        text: "email me",
+        url: "mailto:fikry@example.com"
       }
     }
   }
-}; 
+};
